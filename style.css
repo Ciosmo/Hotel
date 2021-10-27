@@ -1,5 +1,5 @@
 html{
-    font-size: 62.5 ;
+    font-size: 62.5% ;
     box-sizing: border-box;
 }
 
@@ -87,7 +87,7 @@ body{
      }
      .navigation-heading{
          font-family: 'Josefin Sans', sans-serif;
-         font-size: 2rem;
+         font-size: 2.5rem;
          font-weight: 300;
          letter-spacing: .2rem;
          color: #deaa86;
@@ -98,8 +98,8 @@ body{
      }
 
      .navigation-search-input{
-         width: 22rem;
-         padding: 1rem 1rem;
+         width: 20rem;
+         padding: 1rem 2rem;
          background-color: rgba(0,0,0, .3);
          font-family: 'Josefin sans', sans-serif;
          font-size: 1.6rem;
@@ -107,7 +107,7 @@ body{
          letter-spacing: .1rem;
          outline: none;
          border: .1rem solid #555;
-         border-radius: 2rem;
+         border-radius: 10rem;
          transition: background-color .3s;
      }
 
@@ -185,7 +185,7 @@ body{
         color: #fff;
         font-size: 1.2rem;
         margin-bottom: 1.5rem;
-        padding-right:6rem;
+    
     }
     
     .checkbox:checked ~ .navigation{
@@ -200,6 +200,7 @@ body{
     }
     .checkbox:checked ~ .sidebar .line-3{
         transform: rotate(405deg) translate(-5px, -6px);
+        width: 2.5rem;
     }
         /* end ofnavigation */
 /* end ofnabar/*
